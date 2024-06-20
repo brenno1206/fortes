@@ -1,8 +1,11 @@
 * {
     font-family: "Roboto Slab", serif;
+    margin: 0;
 }
 
-#cabec { /*Cabeçalho, logo + fortes*/
+#cabec,
+#nav_func {
+    /*Cabeçalho, logo + fortes*/
     padding: 10px;
     padding-bottom: 0;
     display: flex;
@@ -16,35 +19,40 @@
 }
 
 #fortes hr {
-    color: #3BBF82;
-    border-style: solid;
+    border: 1px solid rgb(148, 147, 147);
 }
 
-#com { /*Área do Título do formulário*/
+#com {
+    /*Área do Título do formulário*/
     padding: 2px;
     text-align: center;
     background-color: rgb(240, 240, 240);
 }
 
-h3 { /*Título do formulário*/
+h3 {
+    /*Título do formulário*/
     color: #1D44A0;
-    font-size: 25px; /* Aumentado o tamanho da fonte */
+    font-size: 25px;
+    /* Aumentado o tamanho da fonte */
 }
 
-h2, h6 { /* -CADASTRO- */
+h2,
+h6 {
+    /* -CADASTRO- */
     text-align: center;
     color: #3BBF82;
 }
 
-section
-{ /*Para centralizar*/
+section {
+    /*Para centralizar*/
     display: flex;
     position: absolute;
     left: 50%;
     transform: translate(-77%);
 }
 
-input { /*Todos os inputs*/
+input {
+    /*Todos os inputs*/
     font-size: 20px;
     width: 375px;
     margin: 10px;
@@ -66,7 +74,7 @@ textarea {
     border-radius: 10px;
 }
 
-#img_cadastro{
+#img_cadastro {
     font-size: 20px;
     width: 500px;
     height: 300px;
@@ -94,16 +102,19 @@ textarea {
     margin-left: 50px;
 }
 
-#junto { /*área do input telefone 1 e 2*/
+#junto {
+    /*área do input telefone 1 e 2*/
     display: flex;
 }
 
-#junto input, /*inputs dos telefones*/
+#junto input,
+/*inputs dos telefones*/
 
-#segundo:last-of-type { 
+#segundo:last-of-type {
     width: 175px;
     margin-left: 1px;
 }
+
 #junto:first-of-type {
     margin-left: 50px;
 }
@@ -112,11 +123,13 @@ textarea {
     width: 175px;
 }
 
-.teste1 { /*telefone 2*/
+.teste1 {
+    /*telefone 2*/
     margin: 0;
 }
 
-footer { /* rodapé (1/10 e próx pág)*/
+footer {
+    /* rodapé (1/10 e próx pág)*/
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -139,7 +152,7 @@ button {
     margin-left: 15px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
@@ -152,7 +165,9 @@ a{
     background-color: rgb(185, 185, 185);
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
@@ -190,7 +205,7 @@ input[type="submit"] {
     transform: translate(-50%);
 }
 
-#cores1, 
+#cores1,
 #cores2 {
     position: fixed;
     top: 0;
@@ -236,27 +251,27 @@ input[type="submit"] {
     display: flex;
 }
 
-h1{
+h1 {
     margin-left: 35%;
     margin-right: 18%;
     color: #12368C;
 }
 
-#cad{
+#cad {
     background-color: #3BBF82;
     text-align: center;
-    width:120px;
+    width: 120px;
     height: 45px;
 }
 
-#entra_botao{
+#entra_botao {
     background-color: #438AB8;
     text-align: center;
-    width:120px;
+    width: 120px;
     height: 45px;
 }
 
-.P-S{
+.P-S {
     margin-left: 50dvh;
     margin-right: 50dvh;
     padding-top: 10dvh;
@@ -264,20 +279,25 @@ h1{
     text-align: left;
 }
 
-.Proj{
+.Proj {
     margin-top: 50px;
     margin-left: 5vw;
     margin-right: 5vw;
     display: flex;
 }
 
-hr{
+hr {
     border: 1px solid rgb(148, 147, 147);
     margin: 5%;
 }
 
+#hr-fun{
+    border: 1px solid rgb(148, 147, 147);
+    margin: 30px;
+}
+
 #esqueci {
-    color: #001F68; 
+    color: #001F68;
     text-decoration: underline;
     padding-left: 300px;
 }
@@ -295,7 +315,7 @@ hr{
     padding-left: 90px;
 }
 
-#interacao_login a{
+#interacao_login a {
     display: flex;
     align-items: center;
     width: 100px;
@@ -318,7 +338,8 @@ hr{
     background-color: white;
 }
 
-#login, #area_funcionario{
+#login,
+#area_funcionario {
     align-items: center;
     background-color: #f0f0f0;
     padding-top: 20px;
@@ -329,7 +350,7 @@ hr{
     margin-left: 45%;
 }
 
-#naosei {
+#pag_login {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -338,40 +359,190 @@ hr{
 #img_login {
     margin-left: 15px;
     width: 98%;
-    height:675px; 
+    height: 675px;
 }
 
 #area_funcionario h1 {
     margin-left: 39%;
 }
 
-#pag_funcionario{
+#pag_funcionario {
     display: flex;
 }
 
-#pag_funcionario #pag_fun_esquerdo {
+#pag_fun_esquerdo {
     background-color: #3485AA;
-    height: 675px;
+    height: 618px;
+    width: 20%;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
 }
 
-#pag_fun_esquerdo h2, #pag_fun_esquerdo h4 {
-    color: white;
-}
 
 #pag_fun_esquerdo h4 {
     text-align: center;
 }
 
-#pag_fun_direito{
-    background-color: #3BBF82;
-    padding-right: 0px;
+#pag_fun_direito {
+    width: 80%;
+    padding: 20px;
 }
 
-#pesquisa form{
-    width: 100%;
+#pesquisa form input {
+    width: 90%;
 }
 
-#filtros h2{
+#pesquisa {
+    padding-bottom: 20px;
+}
+
+#pag_fun_esquerdo h2, #pag_fun_esquerdo h4 {
+    color: white;
+    font-weight: 300;
+}
+
+#pag_fun_direito h2 {
     color: black;
+    font-weight: 400;
+}
+
+#filtros1, #filtros2 {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+#filtros1 img, #filtros2 img {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+#filtros, #filtros2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#projetos {
+    display: flex;
+    justify-content: center;
+}
+
+#proj1, #proj2, #proj3 {
+    width: 220px;
+    height: 180px;
+    text-align: center;
+    background-color: #D9D9D9;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#proj1 img,
+#proj2 img, 
+#proj3 img {
+    padding: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#titulo1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 5px;
+    background-color: white;
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#querem {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 18px;
+    left: 75;
+    transform: translate(-200%);
+}
+
+#bt_resultado{
+    display: flex;
+    margin: 1%;
+    padding-left:170px;
+}
+
+#bt_resultado button {
+    width: 260px;
+    margin: 6px;
+}
+
+.resultado {
+    background-color: #D9D9D9;
+    color: black;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#aguardando {
+    background-color: #FCECB0;
+    border: 1px solid #FDF3CE;
+    border-radius: 3px;
+    color: black;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#pag_fun_direito {
+    display: block;
+}
+
+h2{
+    font-size: 2rem;
+    align-items: center;
+}
+
+.bt_resultado{
+    width: 60px;
+}
+
+#dados_propo {
+    margin-left: 4%;
+    padding-left: 4%;
+    background-color: #f0f0f0;
+    width: 88%;
+    border-radius: 12px;
+}
+
+#dados_propo2{
+    border-radius:12px;
+    display:flex;
+    height: 400px;
+    gap: 100px; /* Espaçamento entre os dois */
+    justify-content: center; /* Centraliza os itens no contêiner */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding-right: 500px;
+    padding-left: 50px;
+}
+
+#dados_propo2 #primeiro input,
+#dados_propo2 #segundo input
+{
+    width: 300px;
     font-weight: 200;
+    color: gray;
+}
+#dados_propo2 #segundo #junto input,
+#dados_propo2 #segundo #tel2 {
+    width: 130px;
+}
+
+#dados_propo label{
+    margin-left: 60px;
 }
